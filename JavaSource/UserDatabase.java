@@ -9,7 +9,7 @@ public class UserDatabase {
 	private final String DRIVER_NAME = "com.mysql.jdbc.Driver";
 	private final String JDBC_URL = "jdbc:mysql://localhost:3306/management?autoReconnect=true&useSSL=false";
 	private final String DB_USER = "mysql";
-	private final String DB_PASS = "ajm1987";
+	private final String DB_PASS = "password";
 
 	public Connection getConnection(){
 
